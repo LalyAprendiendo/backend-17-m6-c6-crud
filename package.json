@@ -4,13 +4,15 @@
 	"description": "<h1 align=\"center\"> API REST - CRUD </h1> <h4 align=\"center\"> Profundizando Sequelize </h4>",
 	"main": "index.js",
 	"scripts": {
-		"dev": "tsnd ./src/index"
+		"dev": "tsnd ./src/index",
+		"sync": "ts-node ./src/db/db-sync.ts"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
 		"@types/express": "^4.17.20",
+		"@types/sequelize": "^4.28.20",
 		"ts-node": "10.9.1",
 		"ts-node-dev": "2.0.0",
 		"typescript": "5.2.2"

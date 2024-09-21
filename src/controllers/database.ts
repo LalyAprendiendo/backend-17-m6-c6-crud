@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import sequelize from '../models/db';
+import sequelize from '../db';
 
 abstract class DB {
 	static async testConnection(req: Request, res: Response) {
